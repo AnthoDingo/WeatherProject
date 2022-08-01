@@ -20,7 +20,7 @@ require_once 'leftMenu.php';
 
                     break;
                 case 'graphique':
-                    require_once 'pages\graph.php';
+                    require_once 'pages/graph.php';
                     break;
                 case 'contact':
 
@@ -29,11 +29,11 @@ require_once 'leftMenu.php';
 
                     break;
                 default:
-                    require_once 'pages\index.php';
+                    require_once 'pages/index.php';
                     break;
             }
         } else {
-            require_once 'pages\index.php';
+            require_once 'pages/index.php';
         }
     ?>
 

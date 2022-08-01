@@ -28,10 +28,10 @@ if(isset($_GET['page'])){
                     endif;
                     ?>
                     <li>
-                        <a href="meteo.html">Graphiques</a>
+                        <a href="index.php?page=graphique">Graphiques</a>
                     </li>
                     <li>
-                        <a >Contact</a>
+                        <a>Contact</a>
                     </li>
                     <li>
                         <a >Aide</a>
