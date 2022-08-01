@@ -29,8 +29,8 @@ function getData(){
     let from=moment.tz($('#dpFrom').datetimepicker('getValue'), 'Europe/Paris').unix(); //timestamp
     let to=moment.tz($('#dpTo').datetimepicker('getValue'), 'Europe/Paris').unix(); //timestamp
 
-    console.log(`/reader.php?from=${from}&to=${to}`);
-    $.get(`/reader.php?from=${from}&to=${to}`, function(values){
+    console.log(`/api/reader.php?from=${from}&to=${to}`);
+    $.get(`/api/reader.php?from=${from}&to=${to}`, function(values){
         console.log(values);
         //TODO charjs
         let datas = jQuery.parseJSON(values);
